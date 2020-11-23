@@ -39,6 +39,7 @@ body{
     height: 60px;
     margin: 10px 20px;
     font-size: 30px;
+    color: white;
 }
 
 .operator, .number, .empty{
@@ -52,22 +53,32 @@ body{
     font-size: 14px;
     border: 1px solid ;
     background-color: lightseagreen;
+    color: lightseagreen;
+}
 
+.operator{
+    color: #141414;
 }
 
 .number , .empty{
     background-color:#161616;
 }
 
+.operator:active{
+    font-size: 12px;
+    background-color: #141414;
+    color: white;
+}
+
 .number , .operator{
     cursor: pointer;
 }
 
-.operator:active, .number:active{
+.number:active{
     font-size: 12px;
-    background-color: #141414;
-
-    
+    background-color: lightseagreen;
+    border: 1px solid white;
+    color: black;
 }
 
 .operator:focus, .number:focus, .empty:focus{
