@@ -77,7 +77,7 @@ body{
 .number:active{
     font-size: 12px;
     background-color: lightseagreen;
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
     color: black;
 }
 
